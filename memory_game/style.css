@@ -1,78 +1,93 @@
-nav {
-  background-color: #808080;
+body{
+	text-align: center;
+	margin: 0;
 }
-
-a {
-  color: #ffffff;
-  background-color: #ffbf00;
-  padding: 35px;
-  float: left;
-  display: block;
-  text-decoration: none;
-}
-
-a:hover { 
-  background-color: #ee5f3c;
-}
-
-nav.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-section {
-  width: 50%;
-  height: 50%;
-  clear: both;
-}
-
 h1 {
-  color: rgb(2, 132, 130);
+	font-family: "Raleway", Sans-serif;
+	font-weight: 400;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin: 0;
 }
 
-h2 {
-  color: #FFD700;
+div {
+	font-family: "Droid Serif", serif;
+	line-height: 26px
+	font-size: 18px;
+}
+.game {
+	font-family: "Raleway", Sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	margin: 0px 20px 0 20px;
+	
+	}
+#Ig{
+	color: white;
+}
+.Instructions{
+	font-family: "Raleway", Sans-serif;
+	letter-spacing: 1px
+	font-weight: 600;
+	font-size: 20px
+}
+#int {
+	color: #0D2C40;
+}
+#game {
+	color: white;
+
 }
 
-h3 {
-  color: #FF0077
+header {
+	background-color: #F15B31;
+	padding: 30px 20px 30px 20px;
 }
-
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0px 20px 0px;
+	border-bottom: 2px solid transparent;
+}
+main {
+	width: 850px;
+	margin: 35px auto 35px auto;
+	
+}
 img {
-  height: 200px;
-  width: 150px;
+	margin: 40px 8px 0px 8px;
 }
-
-.board {
-  height: 50%;
-  width: 50%;
-  display: inline-block;
-}
-
-.card {
-  height: 200px;
-  width: 150px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background: yellow;
-  float: left;
-  margin: 8%;
-}
-
-.name {
-  color: #ff0000;
-  font-weight: bold;
-}
-
-section, footer {
-  text-align: center;
-}
-
 footer {
-  clear: both;
-  background-color: #808080;
+	text-transform: uppercase;
+	padding: 0px 20px 0px 20px;
+	background-color: #0D2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright {
+	float: left;
+}
+.message {
+	float: right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name {
+	color: #f15b31;
+	font-weight: 700;
+}
+a:hover {
+	border-color: white;
 }
